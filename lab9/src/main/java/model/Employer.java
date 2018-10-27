@@ -30,5 +30,13 @@ public class Employer {
     public Double getSalary(){
         return salary;
     }
-    public
+    public Double getOvertimeHours(){
+        return overtimeHours;
+
+    }
+    public Integer getDegreeType(){
+        return  degreeType;
+
+    }
+
 }
