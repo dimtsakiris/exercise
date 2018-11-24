@@ -1,3 +1,5 @@
+package lab9;
+
 public class ScannerUserInput {
     public Integer getInteger(){
         return 0;

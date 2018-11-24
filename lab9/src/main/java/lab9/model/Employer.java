@@ -1,4 +1,4 @@
-package model;
+package lab9.model;
 
 public class Employer {
 

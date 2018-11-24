@@ -1,4 +1,6 @@
-import model.Employer;
+package lab9;
+
+import lab9.model.Employer;
 
 public class Main {
 
