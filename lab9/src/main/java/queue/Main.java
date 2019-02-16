@@ -2,8 +2,11 @@ package queue;
 
 public class Main {
     public static void main(String[] args) {
-        Producer producer = new Producer();
-        Consumer consumer = new Consumer();
+
+//        final QueueMessageAlgorithm instance = QueueMessageAlgorithm.getInstance();
+        final StackMessageAlgorithm instance = StackMessageAlgorithm.getInstance();
+        Producer producer = new Producer(instance);
+        Consumer consumer = new Consumer(instance);
 
         producer.send("code1");
         producer.send("code2");
